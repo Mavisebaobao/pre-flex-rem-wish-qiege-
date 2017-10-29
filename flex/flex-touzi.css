@@ -1,0 +1,47 @@
+.box{
+	width: 50px;
+	height: 50px;
+	border:2px solid #000;
+	border-radius: 10px;
+	background-color: rgb(219,215,215);
+	margin-bottom: 10px;
+}
+.circle1{
+	display: flex;;
+	justify-content: center;
+	align-items: center;
+}
+.box span{
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #000;
+}
+.circle2{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+.circle2 span:first-child{
+	align-self: flex-start;
+}
+.circle3{
+	display: flex;
+}
+.circle3 span:nth-child(2){
+	align-self: center;
+}
+
+.circle3 span:nth-child(3){
+	align-self:flex-end;
+}
+.circle4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.circle4 .row{
+	display: flex;
+	justify-content: space-between;
+}
